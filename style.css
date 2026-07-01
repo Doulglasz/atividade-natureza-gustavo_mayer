@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.banner{
+    background: url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e") center/cover;
+    height: 400px;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(0,0,0,.5);
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    margin-left: 25px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #a6fa46;
+}
+
+.textobanner{
+    text-align: center;
+    margin-top: 110px;
+}
+
+.textobanner h1{
+    font-size: 50px;
+}
+
+.textobanner p{
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 30px;
+    padding: 40px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.card{
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,.2);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.curiosidade{
+    background: #bdecb6;
+    padding: 18px;
+    border-radius: 8px;
+}
+
+.formulario{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.formulario h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, textarea{
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #999;
+    border-radius: 6px;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    background: rgb(143, 235, 69);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover{
+    background: #4294ff;
+    color: black;
+    transition: 0.3s;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background: #1f4d1f;
+    color: white;
+    padding: 35px;
+}
+
+footer div{
+    width: 30%;
+}
+
+footer h3{
+    margin-bottom: 15px;
+}
