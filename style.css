@@ -3,8 +3,20 @@
     padding:0;
 }
 
+h1, h2, p{
+    font-weight: 400;
+}
+
+.card h2{
+    font-family: "Rubik Dirt", system-ui;
+}
+
+.card p{
+    font-family: "Special Elite", system-ui;
+}
+
 .banner{
-    background: url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e") center/cover;
+    background: url(assets/banner.png) center/cover;
     height: 400px;
     color: white;
 }
@@ -19,7 +31,7 @@ nav{
 
 .logo{
     font-size: 28px;
-    font-weight: bold;
+    font-family: "Rubik Dirt", system-ui;
 }
 
 nav ul{
@@ -48,11 +60,13 @@ nav a:hover{
 
 .textobanner h1{
     font-size: 50px;
+    font-family: "Rubik Distressed", system-ui;
 }
 
 .textobanner p{
     margin-top: 15px;
     font-size: 22px;
+    font-family: "Rubik Dirt", system-ui;
 }
 
 .conteudo{
@@ -152,4 +166,14 @@ footer div{
 
 footer h3{
     margin-bottom: 15px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+}
+
+.redes a{
+    padding: 5px;
+    color: #4294ff;
 }
