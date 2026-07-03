@@ -3,16 +3,16 @@
     padding:0;
 }
 
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
 h1, h2, p{
     font-weight: 400;
 }
 
 .card h2{
     font-family: "Rubik Dirt", system-ui;
-}
-
-.card p{
-    font-family: "Special Elite", system-ui;
 }
 
 .banner{
@@ -148,8 +148,8 @@ button{
 
 button:hover{
     background: #4294ff;
-    color: black;
     transition: 0.3s;
+    transform: scale(103%);
 }
 
 footer{
